@@ -1,4 +1,4 @@
-# 🍎 AI-Powered Nutrition Coach
+#  AI-Powered Nutrition Coach
 
 An intelligent nutrition assistant that helps you track meals and get healthy meal suggestions using Groq API.
 
