@@ -1,6 +1,40 @@
-#  AI-Powered Nutrition Coach
+# AI-Powered Nutrition Coach
 
 An intelligent nutrition assistant that helps you track meals and get healthy meal suggestions using Groq API.
+
+## About
+
+**Nutrition Coach** is an AI-powered web application that helps users track their food intake and receive healthy meal suggestions. The application uses a combination of local food database lookup, web search, and Groq LLM API to estimate meal calories and suggest balanced follow-up meals.
+
+### Core Features
+
+- **Smart Meal Logging**: Submit meals and get estimated calorie counts using a local food database and web search
+- **AI-Powered Suggestions**: Get healthy follow-up meal recommendations powered by Groq's LLM, considering nutritional balance and your target daily calorie intake
+- **Meal History Tracking**: Log and view your meal history over time
+- **Modern Interface**: Built with FastAPI backend and Streamlit frontend for a responsive user experience
+
+### How It Works
+
+1. **Submit a meal** description (e.g., "chicken salad with olive oil dressing")
+2. **Web Search Agent** estimates calories via local database and web search
+3. **Logger Agent** records the entry to a CSV file with user name and timestamp
+4. **Meal Suggester Agent** recommends a healthy follow-up meal with recipe, considering your target daily calories
+
+### Technology Stack
+
+- **FastAPI** - Backend API framework
+- **Streamlit** - Interactive web frontend
+- **Groq** - LLM for AI meal suggestions
+- **BeautifulSoup4** + **Requests** - Web search and scraping
+- **Pydantic** - Data validation and settings management
+- **CSV File** - Local meal logging (Google Sheets optional)
+
+### Use Cases
+
+- Track daily food intake and calories
+- Get personalized healthy meal recommendations
+- Monitor eating patterns over time
+- Learn about nutritional content of various foods
 
 ## Features
 
